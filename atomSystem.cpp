@@ -19,8 +19,6 @@ public:
     friend ostream& operator<<(ostream& out, const Atom& atom);
 };
 
-
-
 class AtomSystem
 {
 private:
@@ -91,7 +89,7 @@ int main (){
     AtomSystem system1(2);
     system1.addAtom(atom1);
     system1.addAtom(atom2);
-    //cout << system1;
+    cout << system1;
     AtomSystem system2("system2.txt");
     cout << system2;
     return 0;
